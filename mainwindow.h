@@ -21,7 +21,9 @@ public:
 private slots:
     void on_comboBox_activated(int index);
 
-    void on_pushButton_clicked(bool checked);
+    void on_testButton_clicked();
+
+    void receiveInfo();
 
 private:
     Ui::MainWindow *ui;
